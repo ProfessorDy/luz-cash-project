@@ -516,7 +516,7 @@ footer {
       text-align: left;
 }
 .footer-text p {
-   font-size: .75rem;
+   font-size: .7git5rem;
    line-height: normal;
 }
 .footer-nav{
@@ -543,8 +543,12 @@ footer {
 }
 .footer-nav ul:last-child li{
    margin: 0;
+
 }
 
+.footer-nav ul:last-child li i{
+   font-size: .75rem;
+}
 
 .footer-nav ul:first-child,
 .footer-nav ul:nth-child(2) {
