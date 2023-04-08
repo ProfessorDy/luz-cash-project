@@ -504,8 +504,7 @@ section .card {
 }
 
 .exchange-text p {
-   text-align: left
-   ;
+   text-align: left ;
 }
 
 footer {
@@ -516,7 +515,7 @@ footer {
       text-align: left;
 }
 .footer-text p {
-   font-size: .7git5rem;
+   font-size: .75rem;
    line-height: normal;
 }
 .footer-nav{
