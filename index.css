@@ -534,6 +534,7 @@ footer {
 
 
 .footer-nav ul:last-child {
+   justify-content: flex-start;
    flex-direction: column;
    margin: 0;
    padding: 0;
