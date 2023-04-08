@@ -514,6 +514,7 @@ footer {
 .footer-text {
       width: 100%;
       text-align: justify;
+      font-size: .5rem;
 }
 
 .footer-nav{
