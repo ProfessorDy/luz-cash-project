@@ -513,10 +513,12 @@ footer {
 }
 .footer-text {
       width: 100%;
-      text-align: justify;
-      font-size: .5rem;
+      text-align: left;
 }
-
+.footer-text p {
+   font-size: .75rem;
+   line-height: normal;
+}
 .footer-nav{
    display: flex;
    justify-content: space-between;
