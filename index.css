@@ -11,7 +11,6 @@
 
 html {
    scroll-behavior: smooth;
-   overflow: hidden;
 }
 
 li {
@@ -25,6 +24,7 @@ body {
     width: 100vw;
     background: #F6F5FF;
     font-family: 'Space Grotesk', sans-serif;
+    overflow: hidden;
  }
 
  main, 
