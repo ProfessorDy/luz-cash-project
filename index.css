@@ -63,6 +63,7 @@ body {
    top: 0;
    z-index: 1000;
    display: flex;
+   justify-content: space-between;
    flex-direction: column;
    background: #FFFCF5;
    padding: .75rem;
@@ -82,6 +83,9 @@ body {
    transition: all .50s ease;
  }
 
+ .hero-text{
+   margin-top: 1.5rem;
+ }
  .footer-nav ul li:first-child{
    font-family: 'Archivo Black', sans-serif;
    color: #3F14B6;
@@ -574,9 +578,7 @@ footer {
       text-align: left;
    }
 
-   /* .hero-text, .exchange-text {
-      width: 50%;
-   } */
+  
 
    .hero figure {
       width: 50%;
