@@ -24,12 +24,11 @@ body {
     width: 100vw;
     background: #F6F5FF;
     font-family: 'Space Grotesk', sans-serif;
-    overflow: hidden;
  }
 
  main, 
  footer {
-   position: relative;
+   /* position: relative; */
    padding: 0 2rem;
  }
 
@@ -214,7 +213,11 @@ h3 {
  }
 
  /* ACCESSORIES */
-
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+   justify-content: center;
+}
  #menu-icon {
    display: block;
    top: .75rem;
@@ -296,7 +299,7 @@ form input {
     background: #FFFCF5;
     border-radius: 0.625rem;
     box-shadow: 0.125rem 0.125rem 1rem .5rem rgba(44,29,178,0.75);
-    position: relative;
+    /* position: relative; */
 }
 
 .card h3 {
@@ -562,7 +565,6 @@ footer {
       font-size: 1.25em;
    }
    body {
-      max-width: 1440px;
       margin: 0 auto;
    }
 
@@ -593,7 +595,8 @@ footer {
       display: none;
    }
 
-   footer {
+   footer .container {
+   display: flex;
    flex-direction: row;
    justify-content: space-between;
    }
